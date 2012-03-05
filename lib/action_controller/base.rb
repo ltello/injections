@@ -1,6 +1,6 @@
 class ActionController::Base
 
-  # Método executed after an explicit or implicit call to render in a controller.
+  # Method executed after an explicit or implicit call to render in a controller.
   # It is really a wrap of the render Rails method:
   #  1.- Execute first callbacks of type :render
   #  2.- Execute known Rails render.

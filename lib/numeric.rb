@@ -1,7 +1,7 @@
 class Numeric
 
-  # Forces self to be included in the range composed by <low>, <high> params.
-  # Conditions: high must be greater then low. If not is the case, high will be set to low.
+  # Forces self to be included in the range formed by <low>, <high> params.
+  # Conditions: high must be greater than low. Otherwise, high will be set to low.
   #   If self is < low, returns low
   #   If self === (low..high) returns self
   #   If self is > high, returns high

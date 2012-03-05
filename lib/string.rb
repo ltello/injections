@@ -2,10 +2,10 @@
 class String
 
   # Add quotes to the beginning and end of a string. Can be single or doubled quotes depending of
-  # type parameter (default double):
+  # parameter <type> (defaults to :double):
   #     'alex'.stringify            #=> '"alex"'
-  #     'alex'.stringify(:single)   #=> "'alex'"
-  #     'alex'.stringify(:double)   #=> '"alex"'
+  #     'alex'.stringify(:double)   #=> "'alex'"
+  #     'alex'.stringify(:single)   #=> '"alex"'
   def stringify(tipo=:double)
     delimiter = tipo == :single ? "'" : '"'
     "#{delimiter}%s#{delimiter}" % self

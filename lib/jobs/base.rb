@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 # A very basic superclass for all the jobs in a Rails app.
-# Make of your jobs inherit from it to get this basic logging features.
+# Make your jobs inherit from it to get this basic logging features.
 module Jobs
 
   # Callbacks in jobs execution.

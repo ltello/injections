@@ -1,6 +1,6 @@
 #encoding: utf-8
 
-# Maps an ActiveResource class to an ActiveRecord class of different name
+# Maps an ActiveResource class to a ActiveRecord class of different name
 module Models
   module ArArMapping
     extend ActiveSupport::Concern

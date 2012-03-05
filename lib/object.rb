@@ -1,6 +1,6 @@
 class Object
 
-  # Returns the result of calling a method in the receiver of nil if either the receiver is nil or the
+  # Returns the result of calling a method in the receiver or nil if either the receiver is nil or the
   # method is not defined for the receiver. This way, no exeptions are raised and we can do things like this:
   #
   # if person && person.surname           # can be substituted by:
@@ -65,13 +65,13 @@ class Object
     self
   end
 
-  # Check wether self is blank or 0
+  # Check whether self is blank or 0
   def blanko0?
     self.blank? or self == 0
   end
 
   # Converts param to a Date instance if it's a string or leave it unmodified if it's already of type Date or DateTime
-  # Return nil otherwise.
+  # Otherwise returns nil.
   def ensure_date_type(param)
     return param if [Date, DateTime].include?(param)
     param.to_date if param.is_a?(String)

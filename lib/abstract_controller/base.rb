@@ -2,7 +2,7 @@ class AbstractController::Base
 
   # Define before_render.
   # It is a new callback executed just after an action in a controller before rendering any view.
-  # You may use it the same way you use before_filter. It accepts the sama options and even a block.
+  # You may use it the same way you use before_filter. It accepts the same options and even a block.
   #
   # Ex: class MyController < ApplicationController
   #       before_render :log_action, :only => [:show]
@@ -15,7 +15,7 @@ class AbstractController::Base
   #
   #       private
   #         def log_action
-  #           Rails.logger "Executed action: #{controller.name}-#{action_name}"
+  #           Rails.logger.info "Executed action: #{controller.name}-#{action_name}"
   #         end
   #
   def self.before_render_filter(*names, &blk)
