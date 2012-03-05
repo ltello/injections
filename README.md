@@ -1,10 +1,10 @@
 # Injections: A collection of methods injected in different classes I like to use in my Rails applications
 
 * **ActionController:**
-    _before_render: A callback executed just after an action in a controller before rendering any view
+    _before_render: A callback executed just after an action in a controller before rendering any view._
 
 * **ActiveResource:**
-    _ACTIVE_RESOURCE_MAPPING_CLASSES: a mechanism to map an ActiveResource class to a ActiveRecord class of different name
+    _ACTIVE_RESOURCE_MAPPING_CLASSES: a mechanism to map an ActiveResource class to a ActiveRecord class of different name._
 
 * **Array:**
     _pop_if_unique: the single element of the array if it is of size 1.
