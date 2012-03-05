@@ -2,42 +2,60 @@
 
 * **ActionController:**
 
-     before_render: _A callback executed just after an action in a controller before rendering any view._
+    **before\_render:** _A callback executed just after an action in a controller before rendering any view._
+
 
 * **ActiveResource:**
 
-    _ACTIVE_RESOURCE_MAPPING_CLASSES_: a mechanism to map an ActiveResource class to a ActiveRecord class of different name.
+    **ACTIVE\_RESOURCE\_MAPPING\_CLASSES:** _a mechanism to map an ActiveResource class to a ActiveRecord class of different name._
 
 * **Array:**
-    _pop_if_unique: the single element of the array if it is of size 1.
+
+    **pop\_if\_unique:** _the single element of the array if it is of size 1._
 
 * **FalseClass:**
-    _to_i: 0.
+
+    **to\_i:** _0._
 
 * **Hash:**
-    _compact: a copy of the hash with blank? values removed recursivelly
-    _compact!: the bang mate of compact
-    _expand: array of strings of the different paths of a hash excluding end values.
-    _expand_with_leaves: same as _expand including end values.
+
+    **compact:** _a copy of the hash with blank? values removed recursively_
+
+    **compact!:** _the bang mate of compact._
+
+    **expand:** _array of strings of the different paths of a hash excluding end values._
+
+    **expand\_with\_leaves:** _same as_ expand _including end values._
 
 * **Numeric:**
-    _force: forces the numeric to be included in a range.
+
+    **force:** _forces the numeric to be included in a range._
 
 * **Object:**
-    _sendonil: calls a method in the object but dont raise an exception if is nil or not respond_to?.
-    _sendoself: same as sendonil but returns self instead of raising an exception.
-    _msend: like send but it also accepts a method's chain.
-    _first_responder: returns the first method of a list that object responds to.
-    _altsend: the result of calling first_responder method to the object.
-    _respond_to_all?: whether the object responds to all the methods of a list.
-    _blanko0?: whether the object is blank? or 0
+
+    **sendonil:** _calls a method in the object but dont raise an exception if is nil or not respond_to?._
+
+    **sendoself:** _same as sendonil but returns self instead of raising an exception._
+
+    **msend:** like _send but it also accepts a method's chain._
+
+    **first\_responder:** _returns the first method of a list that object responds to._
+
+    **altsend:** _the result of calling first_responder method to the object._
+
+    **respond_to_all?:** _whether the object responds to all the methods of a list._
+
+    **blanko0?:** _whether the object is blank? or 0._
 
 * **String:**
-    _stringify: wrap a string into single or double quotes.
-    _max_included_number: maximum number scanned in a string.
+
+    **stringify:** _wrap a string into single or double quotes._
+
+    **max\_included\_number:** _maximum number scanned in a string._
 
 * **TrueClass:**
-    _to_i: 1.
+
+    **to\_i:** _1._
 
 
 
